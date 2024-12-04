@@ -1,0 +1,111 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Yoni-harvard.github.io/iiif-training/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "SpongeBob Soprano label for the manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "descriotion added",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "CopyRight Glen Robson but released as Creative Commons",
+  "sequences" : [ {
+    "@id" : "http://7d0aca08-27ca-4299-a97a-eeade0d1dcde",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7c85ceee-5065-494b-be9e-7ecb43692bbe",
+      "@type" : "sc:Canvas",
+      "label" : "sopranos",
+      "height" : 722,
+      "width" : 736,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8a74f970-ab74-400a-a3ee-979ba57dd9f0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/invite3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/invite3",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 531392,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 722,
+          "width" : 736
+        },
+        "on" : "http://7c85ceee-5065-494b-be9e-7ecb43692bbe"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://587110de-8f1b-430c-a876-508bc4391efa",
+      "@type" : "sc:Canvas",
+      "label" : "tractor",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e04c2be9-84bf-4976-a093-6938064fed43",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/img-0353/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/img-0353",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 12192768,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://587110de-8f1b-430c-a876-508bc4391efa"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://85dfe7d3-2744-47de-af86-03142cb46552",
+      "@type" : "sc:Canvas",
+      "label" : "field",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f7c473c8-3e04-4d16-ae4d-b58c8cb06372",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif-test.github.io/Jan2022/images/IMG_9069//full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif-test.github.io/Jan2022/images/IMG_9069/",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://85dfe7d3-2744-47de-af86-03142cb46552"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
